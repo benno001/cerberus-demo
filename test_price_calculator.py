@@ -8,8 +8,19 @@ products = {
 }
 
 calculate_price_schema = {
-    'product_name': {'type': 'string', 'allowed': ['book','microphone','laptop']},
-    'number': {'type': 'integer', 'min': 0, 'max': 10000}
+    'product_name': {
+        'type': 'string',
+        'allowed': [
+            'book',
+            'microphone',
+            'laptop'
+        ]
+    },
+    'number': {
+        'type': 'integer',
+        'min': 0,
+        'max': 10000
+    }
 }
 
 
